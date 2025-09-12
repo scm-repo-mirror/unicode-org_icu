@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757630720540,
+  "lastUpdate": 1757639816481,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -38307,6 +38307,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "UnicodeSetIterate",
             "value": 0.7032175866225108,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shane@unicode.org",
+            "name": "Shane F. Carr",
+            "username": "sffc"
+          },
+          "committer": {
+            "email": "shane@unicode.org",
+            "name": "Shane F. Carr",
+            "username": "sffc"
+          },
+          "distinct": true,
+          "id": "22b1e582063322ce5cffafd888c067efdda47f13",
+          "message": "ICU-23194 Add intersection and complement filters to Python data build tool",
+          "timestamp": "2025-09-11T17:58:55-07:00",
+          "tree_id": "f4b233cb742848366c32af7a4913bac0efc72e83",
+          "url": "https://github.com/unicode-org/icu/commit/22b1e582063322ce5cffafd888c067efdda47f13"
+        },
+        "date": 1757639510697,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "UnicodeSetIterate",
+            "value": 0.703182005082946,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

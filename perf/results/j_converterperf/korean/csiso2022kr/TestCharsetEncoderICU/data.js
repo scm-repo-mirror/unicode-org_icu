@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757709767713,
+  "lastUpdate": 1757711595788,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -38247,6 +38247,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetEncoderICU",
             "value": 19.568626419082722,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "markus.icu@gmail.com",
+            "name": "Markus Scherer",
+            "username": "markusicu"
+          },
+          "committer": {
+            "email": "62772518+richgillam@users.noreply.github.com",
+            "name": "Rich Gillam",
+            "username": "richgillam"
+          },
+          "distinct": true,
+          "id": "02d6ed985941ad761f3d0a2b2736c0b339412d91",
+          "message": "ICU-23056 headertest: use header-specific .cpp filename\n\nto help with debugging",
+          "timestamp": "2025-09-12T13:46:12-07:00",
+          "tree_id": "7f735aa0b000e562a6a06372e2244acb46c6a25f",
+          "url": "https://github.com/unicode-org/icu/commit/02d6ed985941ad761f3d0a2b2736c0b339412d91"
+        },
+        "date": 1757711274343,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetEncoderICU",
+            "value": 18.21569976932688,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

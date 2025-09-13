@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757720717540,
+  "lastUpdate": 1757725607244,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -38367,6 +38367,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetDecoderICU",
             "value": 0.028783991300627143,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "committer": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "distinct": true,
+          "id": "0f50ec2245e1639ee97665c52308c7565ee46044",
+          "message": "ICU-23056 Fix ICU4J public API release status tags for Segmenter files",
+          "timestamp": "2025-09-12T17:48:09-07:00",
+          "tree_id": "5f986803be9b04c121f66fd7ad153521fd06a067",
+          "url": "https://github.com/unicode-org/icu/commit/0f50ec2245e1639ee97665c52308c7565ee46044"
+        },
+        "date": 1757725200222,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetDecoderICU",
+            "value": 0.02866000970557825,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757726672442,
+  "lastUpdate": 1757729137928,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -38307,6 +38307,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUConstruction",
             "value": 487.26986765912136,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cwcornelius@gmail.com",
+            "name": "sven-oly",
+            "username": "sven-oly"
+          },
+          "committer": {
+            "email": "cwcornelius@gmail.com",
+            "name": "Craig Cornelius",
+            "username": "sven-oly"
+          },
+          "distinct": true,
+          "id": "2b13d37d4cd23c9e9b5ff7dd0160b03cc62093bc",
+          "message": "ICU-23056 Add version info for MF2\n\nSee #3653",
+          "timestamp": "2025-09-12T18:47:01-07:00",
+          "tree_id": "56da590a59fed4e6cc0a226f356366ef66be5ff7",
+          "url": "https://github.com/unicode-org/icu/commit/2b13d37d4cd23c9e9b5ff7dd0160b03cc62093bc"
+        },
+        "date": 1757728823381,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUConstruction",
+            "value": 473.6984396351143,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

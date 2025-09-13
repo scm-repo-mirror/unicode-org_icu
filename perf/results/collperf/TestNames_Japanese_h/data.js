@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757720848814,
+  "lastUpdate": 1757725748534,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -73815,6 +73815,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestIcu_BinarySearch_usekey",
             "value": 5460756.4603,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "committer": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "distinct": true,
+          "id": "0f50ec2245e1639ee97665c52308c7565ee46044",
+          "message": "ICU-23056 Fix ICU4J public API release status tags for Segmenter files",
+          "timestamp": "2025-09-12T17:48:09-07:00",
+          "tree_id": "5f986803be9b04c121f66fd7ad153521fd06a067",
+          "url": "https://github.com/unicode-org/icu/commit/0f50ec2245e1639ee97665c52308c7565ee46044"
+        },
+        "date": 1757725427100,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestIcu_KeyGen_null",
+            "value": 217.224,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_qsort_strcoll_null",
+            "value": 20699822.2965,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_qsort_usekey",
+            "value": 5299754.0797,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_BinarySearch_strcoll_null",
+            "value": 19559323.0068,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_BinarySearch_usekey",
+            "value": 5472138.9078,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

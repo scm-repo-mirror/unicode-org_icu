@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757729036199,
+  "lastUpdate": 1757816900037,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -38337,6 +38337,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetEncoderICU",
             "value": 0.8606276976964676,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "y.umaoka@gmail.com",
+            "name": "Yoshito Umaoka",
+            "username": "yumaoka"
+          },
+          "committer": {
+            "email": "yumaoka@users.noreply.github.com",
+            "name": "Yoshito Umaoka",
+            "username": "yumaoka"
+          },
+          "distinct": true,
+          "id": "8e7643827d215489b25a3a017867b43a01bda108",
+          "message": "ICU-23183 Merging fix done for CLDR-18985 and more logKnownIssues for…\n\nSee #3650",
+          "timestamp": "2025-09-13T21:59:51-04:00",
+          "tree_id": "602fe41573439ac012a6fa20dcc4de0b005fc0e1",
+          "url": "https://github.com/unicode-org/icu/commit/8e7643827d215489b25a3a017867b43a01bda108"
+        },
+        "date": 1757816502830,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetEncoderICU",
+            "value": 0.3477981773745715,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

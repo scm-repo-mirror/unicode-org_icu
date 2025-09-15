@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757957679262,
+  "lastUpdate": 1757959755360,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -46977,6 +46977,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "Test_ICU_Backward_Search",
             "value": 49.224,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "srl295@gmail.com",
+            "name": "Steven R. Loomis",
+            "username": "srl295"
+          },
+          "committer": {
+            "email": "srl295@gmail.com",
+            "name": "Steven R. Loomis",
+            "username": "srl295"
+          },
+          "distinct": true,
+          "id": "ed27dc7e4eaaec57f7813eba5ecf49ec19ddd009",
+          "message": "ICU-23056 cldr-48-alpha2\n\nSee #3643\r\n\r\ncldr-48-alpha2d\r\n\r\n- CLDR commit 23e250bdfdd7b23f5e1fe3c681abf94546aedb1d\r\n- CLDR staging commit 23e250bdfdd7b23f5e1fe3c681abf94546aedb1d\r\n- update tests\r\n- J: update DateIntervalFormatTest to report multiple failures at once",
+          "timestamp": "2025-09-15T12:38:16-05:00",
+          "tree_id": "4ca4fdaf2ff2a5e4e25b7d1c9b56d995b936d410",
+          "url": "https://github.com/unicode-org/icu/commit/ed27dc7e4eaaec57f7813eba5ecf49ec19ddd009"
+        },
+        "date": 1757959427938,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Test_ICU_Forward_Search",
+            "value": 22.7204,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "Test_ICU_Backward_Search",
+            "value": 48.8684,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

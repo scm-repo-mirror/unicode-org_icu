@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757959095182,
+  "lastUpdate": 1757974517043,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -38337,6 +38337,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUParse",
             "value": 137.22255713870823,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "committer": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "distinct": true,
+          "id": "f6b62f8840ed3bfced8ad093fe3dce06900f811b",
+          "message": "ICU-23056 Update ICU4J public API release status tags for MF2",
+          "timestamp": "2025-09-15T15:06:07-07:00",
+          "tree_id": "077dd0c2d0ccf9f6ec18d822fe136fc4e7ea467a",
+          "url": "https://github.com/unicode-org/icu/commit/f6b62f8840ed3bfced8ad093fe3dce06900f811b"
+        },
+        "date": 1757974197548,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUParse",
+            "value": 130.6066428624194,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

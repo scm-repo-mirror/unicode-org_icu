@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757945619711,
+  "lastUpdate": 1757957177887,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -38517,6 +38517,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUParse",
             "value": 285.2723150986364,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ccornelius@google.com",
+            "name": "Craig Cornelius",
+            "username": "sven-oly"
+          },
+          "committer": {
+            "email": "cwcornelius@gmail.com",
+            "name": "Craig Cornelius",
+            "username": "sven-oly"
+          },
+          "distinct": true,
+          "id": "ff876ca7017411913432ef9e6c8a17616de11311",
+          "message": "ICU-23056 Update instructions from JDK8 to JDK11\n\nSee #3654",
+          "timestamp": "2025-09-12T18:14:09-07:00",
+          "tree_id": "3f1702cbabc38e94eb86284d364511bcf4cce3fd",
+          "url": "https://github.com/unicode-org/icu/commit/ff876ca7017411913432ef9e6c8a17616de11311"
+        },
+        "date": 1757956863052,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUParse",
+            "value": 301.29161060355057,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

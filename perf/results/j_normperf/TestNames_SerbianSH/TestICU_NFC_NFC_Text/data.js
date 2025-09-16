@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758040974229,
+  "lastUpdate": 1758044789287,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -38697,6 +38697,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICU_NFC_NFC_Text",
             "value": 1.5297490997226306,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "younies.mahmoud@gmail.com",
+            "name": "younies",
+            "username": "younies"
+          },
+          "committer": {
+            "email": "42151464+pedberg-icu@users.noreply.github.com",
+            "name": "Peter Edberg",
+            "username": "pedberg-icu"
+          },
+          "distinct": true,
+          "id": "a9f9b5ce32954dc9a368ab00f3aac570327a7ca8",
+          "message": "ICU-23104 Fix the handling of part-per-1e9\n\nSee #3663",
+          "timestamp": "2025-09-16T10:30:48-07:00",
+          "tree_id": "8bfe93ff698720b384215035842192d5f982e96e",
+          "url": "https://github.com/unicode-org/icu/commit/a9f9b5ce32954dc9a368ab00f3aac570327a7ca8"
+        },
+        "date": 1758044465567,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 1.5179069492813504,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

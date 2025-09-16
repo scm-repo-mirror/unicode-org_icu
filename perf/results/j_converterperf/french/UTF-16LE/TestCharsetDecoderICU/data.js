@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758047045190,
+  "lastUpdate": 1758049163056,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -38817,6 +38817,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetDecoderICU",
             "value": 3.9207904859120886,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "srl295@gmail.com",
+            "name": "Steven R. Loomis",
+            "username": "srl295"
+          },
+          "committer": {
+            "email": "srl295@gmail.com",
+            "name": "Steven R. Loomis",
+            "username": "srl295"
+          },
+          "distinct": true,
+          "id": "43afd6f2f44b507153091de0e370f840997d9af0",
+          "message": "ICU-23214 generate brkitr/root.txt lstm from data\n\n- update cldr-icu.md\n- see TODOs in ICU-23215",
+          "timestamp": "2025-09-16T13:35:58-05:00",
+          "tree_id": "8162f1a68970941d51a9f711f9b3f9a0211a76b2",
+          "url": "https://github.com/unicode-org/icu/commit/43afd6f2f44b507153091de0e370f840997d9af0"
+        },
+        "date": 1758048830342,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetDecoderICU",
+            "value": 3.857028259766315,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

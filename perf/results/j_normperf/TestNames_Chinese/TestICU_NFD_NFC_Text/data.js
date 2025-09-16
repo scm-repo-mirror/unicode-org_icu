@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757981568501,
+  "lastUpdate": 1757982141343,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -77366,6 +77366,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICU_NFD_NFC_Text",
             "value": 3.761578487121226,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "committer": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "distinct": true,
+          "id": "f692d3c0267cb467f110da8b24213f87d210632c",
+          "message": "ICU-23056 Use Locale in Directionality.of",
+          "timestamp": "2025-09-15T17:13:23-07:00",
+          "tree_id": "c4ca3f9a99e604a24baf85050703b06eadb2d2c9",
+          "url": "https://github.com/unicode-org/icu/commit/f692d3c0267cb467f110da8b24213f87d210632c"
+        },
+        "date": 1757981827269,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 3.7280734023054465,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758049591241,
+  "lastUpdate": 1758050127215,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -47265,6 +47265,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "Test_ICU_Backward_Search",
             "value": 52.0923,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "y.umaoka@gmail.com",
+            "name": "Yoshito Umaoka",
+            "username": "yumaoka"
+          },
+          "committer": {
+            "email": "yumaoka@users.noreply.github.com",
+            "name": "Yoshito Umaoka",
+            "username": "yumaoka"
+          },
+          "distinct": true,
+          "id": "ea25021d333795ce4314bc70ccf2052a1da0a2b9",
+          "message": "ICU-23183 Removing logKnownIssue from TimeZoneFormatTest which was added for CLDR 48 alpha integration.",
+          "timestamp": "2025-09-12T13:04:16-04:00",
+          "tree_id": "f8d6f402a04762bd387a5ae7c304a7ffe9989103",
+          "url": "https://github.com/unicode-org/icu/commit/ea25021d333795ce4314bc70ccf2052a1da0a2b9"
+        },
+        "date": 1758049801500,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Test_ICU_Forward_Search",
+            "value": 23.3689,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "Test_ICU_Backward_Search",
+            "value": 49.5444,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

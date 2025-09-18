@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758194088806,
+  "lastUpdate": 1758212753530,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39207,6 +39207,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "UnicodeSetContains",
             "value": 2.039204273792756,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "younies.mahmoud@gmail.com",
+            "name": "younies",
+            "username": "younies"
+          },
+          "committer": {
+            "email": "younies.mahmoud@gmail.com",
+            "name": "Younies Mahmoud",
+            "username": "younies"
+          },
+          "distinct": true,
+          "id": "59c70daf9e1405aa323082d680e428dec30869ed",
+          "message": "ICU-23045 Remove known issue logging for unit identifiers related\n\n# Description:\n\nThis issue has been fixed in this PR: , and introducing the following issue:",
+          "timestamp": "2025-09-18T18:11:01+02:00",
+          "tree_id": "268fc404e7561ec6b602b368d6d839dad801fed6",
+          "url": "https://github.com/unicode-org/icu/commit/59c70daf9e1405aa323082d680e428dec30869ed"
+        },
+        "date": 1758212428355,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "UnicodeSetContains",
+            "value": 2.0351158041341537,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758732428549,
+  "lastUpdate": 1758745300102,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39327,6 +39327,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetEncoderICU",
             "value": 0.4365134542877867,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "committer": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "distinct": true,
+          "id": "d02d43b040e6250f197c1a8aa14d16d40a56b6d2",
+          "message": "ICU-23202 MF2 to LDML 48: update tests and :number, :integer, :offset, :percent functions",
+          "timestamp": "2025-09-24T13:11:21-07:00",
+          "tree_id": "813be797a0400a89617ef0a08240aa5cd9529a78",
+          "url": "https://github.com/unicode-org/icu/commit/d02d43b040e6250f197c1a8aa14d16d40a56b6d2"
+        },
+        "date": 1758744959316,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetEncoderICU",
+            "value": 0.43685154063960024,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

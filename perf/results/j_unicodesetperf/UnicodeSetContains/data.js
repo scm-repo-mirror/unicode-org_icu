@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758768744384,
+  "lastUpdate": 1758795374299,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39537,6 +39537,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "UnicodeSetContains",
             "value": 2.036845941291857,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dragan@unicode.org",
+            "name": "DraganBesevic",
+            "username": "DraganBesevic"
+          },
+          "committer": {
+            "email": "younies.mahmoud@gmail.com",
+            "name": "Younies Mahmoud",
+            "username": "younies"
+          },
+          "distinct": true,
+          "id": "f00a17b5bada744f8d2ff8ff93470457a9b75dce",
+          "message": "ICU-23056 Integrate CLDR 48 release beta1",
+          "timestamp": "2025-09-25T11:48:23+02:00",
+          "tree_id": "6dd339d2390153138b6d8b8056787efe8f393f8f",
+          "url": "https://github.com/unicode-org/icu/commit/f00a17b5bada744f8d2ff8ff93470457a9b75dce"
+        },
+        "date": 1758795040102,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "UnicodeSetContains",
+            "value": 2.03390966680582,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758748698469,
+  "lastUpdate": 1758768966985,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39417,6 +39417,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "UnicodeSetIterate",
             "value": 0.7031445789395687,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "markus.icu@gmail.com",
+            "name": "Markus Scherer",
+            "username": "markusicu"
+          },
+          "committer": {
+            "email": "markus.icu@gmail.com",
+            "name": "Markus Scherer",
+            "username": "markusicu"
+          },
+          "distinct": true,
+          "id": "15a19d6075bfc72161c4925b6b31bede87b24c56",
+          "message": "ICU-23055 doc \nucol_openRules(strength=UCOL_DEFAULT) to not override strength in rules",
+          "timestamp": "2025-09-24T19:43:44-07:00",
+          "tree_id": "9f574ef06d696882a9a8fcd2044436121c69ac31",
+          "url": "https://github.com/unicode-org/icu/commit/15a19d6075bfc72161c4925b6b31bede87b24c56"
+        },
+        "date": 1758768622625,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "UnicodeSetIterate",
+            "value": 0.7043453254895914,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

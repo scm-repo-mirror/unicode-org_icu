@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758820336091,
+  "lastUpdate": 1758825570401,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39117,6 +39117,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetDecoderICU",
             "value": 0.006230487427034949,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "committer": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "distinct": true,
+          "id": "122e60c6bedfff25476db4ceaa777af22258c964",
+          "message": "ICU-23056 Update BRS commit checker to recognize done resolution status",
+          "timestamp": "2025-09-25T11:20:32-07:00",
+          "tree_id": "1b30a9bfaf201a05109e829f201b44afbf6bb290",
+          "url": "https://github.com/unicode-org/icu/commit/122e60c6bedfff25476db4ceaa777af22258c964"
+        },
+        "date": 1758825232222,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetDecoderICU",
+            "value": 0.0063246299406489286,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

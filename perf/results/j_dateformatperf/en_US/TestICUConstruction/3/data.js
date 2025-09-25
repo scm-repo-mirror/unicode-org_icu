@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758812929890,
+  "lastUpdate": 1758820676987,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39237,6 +39237,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUConstruction",
             "value": 1941.7883141838747,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "richard_gillam@apple.com",
+            "name": "Rich Gillam",
+            "username": "richgillam"
+          },
+          "committer": {
+            "email": "62772518+richgillam@users.noreply.github.com",
+            "name": "Rich Gillam",
+            "username": "richgillam"
+          },
+          "distinct": true,
+          "id": "07623b801b98831b54fd676086bd6dd437442267",
+          "message": "ICU-23165 Fixed crash in the ISO 2022-CN converter.  There was an erroneous version check in one spot that could\ncause certain input strings to dereference a null pointer because a particular conversion table wasn't allocated.\nAdded an appropriate unit test.",
+          "timestamp": "2025-09-25T09:47:50-07:00",
+          "tree_id": "25e6279cde608ac58ac7731e5e1aed421db3a146",
+          "url": "https://github.com/unicode-org/icu/commit/07623b801b98831b54fd676086bd6dd437442267"
+        },
+        "date": 1758819745731,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUConstruction",
+            "value": 2053.6998974908533,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

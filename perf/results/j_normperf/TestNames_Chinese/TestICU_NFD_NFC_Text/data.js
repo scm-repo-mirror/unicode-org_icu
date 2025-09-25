@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758824936057,
+  "lastUpdate": 1758825057561,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -79046,6 +79046,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICU_NFD_NFC_Text",
             "value": 3.720370088373304,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "committer": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "distinct": true,
+          "id": "122e60c6bedfff25476db4ceaa777af22258c964",
+          "message": "ICU-23056 Update BRS commit checker to recognize done resolution status",
+          "timestamp": "2025-09-25T11:20:32-07:00",
+          "tree_id": "1b30a9bfaf201a05109e829f201b44afbf6bb290",
+          "url": "https://github.com/unicode-org/icu/commit/122e60c6bedfff25476db4ceaa777af22258c964"
+        },
+        "date": 1758824726180,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 3.739252036243623,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

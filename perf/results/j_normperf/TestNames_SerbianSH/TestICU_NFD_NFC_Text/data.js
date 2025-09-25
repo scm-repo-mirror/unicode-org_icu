@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758823715984,
+  "lastUpdate": 1758824340484,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -78806,6 +78806,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICU_NFD_NFC_Text",
             "value": 9.01528225079558,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "committer": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "distinct": true,
+          "id": "e6c9beeefaa9b533719700e9fb95d747ef3c6e7e",
+          "message": "ICU-23055 Update docs for BRS commit checker instructions",
+          "timestamp": "2025-09-25T11:10:14-07:00",
+          "tree_id": "060c5e1c95abe0e8f62a12130f6065481df41208",
+          "url": "https://github.com/unicode-org/icu/commit/e6c9beeefaa9b533719700e9fb95d747ef3c6e7e"
+        },
+        "date": 1758824011134,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 8.613592779182653,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

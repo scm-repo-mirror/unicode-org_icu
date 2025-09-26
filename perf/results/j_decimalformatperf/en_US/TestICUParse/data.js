@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758911891949,
+  "lastUpdate": 1758916875192,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39987,6 +39987,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUParse",
             "value": 324.02059909384866,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "committer": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "distinct": true,
+          "id": "ca24dcdc6703cbc07524ac0a548ded6b4bffa911",
+          "message": "ICU-23056 BRS_78_RC: Update version number to 78.1-SNAPSHOT",
+          "timestamp": "2025-09-26T12:47:26-07:00",
+          "tree_id": "a7fba5deebd56492ffed81235221ac08b42223f3",
+          "url": "https://github.com/unicode-org/icu/commit/ca24dcdc6703cbc07524ac0a548ded6b4bffa911"
+        },
+        "date": 1758916544679,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUParse",
+            "value": 343.17548592987396,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

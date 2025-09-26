@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758909350565,
+  "lastUpdate": 1758911889539,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39747,6 +39747,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUFormat",
             "value": 561.7655385456525,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "committer": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "distinct": true,
+          "id": "bb4facc289293f7d26c829b1c6ab7158f19efb59",
+          "message": "ICU-22852 Ability to format java.util.Calendar",
+          "timestamp": "2025-09-26T11:25:04-07:00",
+          "tree_id": "df35eeecfc8478e96e37748c8740abe4e4a8fa1d",
+          "url": "https://github.com/unicode-org/icu/commit/bb4facc289293f7d26c829b1c6ab7158f19efb59"
+        },
+        "date": 1758911559855,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUFormat",
+            "value": 550.6629746696133,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

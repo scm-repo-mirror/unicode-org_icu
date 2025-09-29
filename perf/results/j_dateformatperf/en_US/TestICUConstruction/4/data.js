@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759165343538,
+  "lastUpdate": 1759179083662,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39957,6 +39957,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUConstruction",
             "value": 2047.1620163523507,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "committer": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "distinct": true,
+          "id": "cb718e278ac4935bd160af3aa17a96e245c793f8",
+          "message": "ICU-23054 Remove obsolete TODO",
+          "timestamp": "2025-09-29T13:24:37-07:00",
+          "tree_id": "6bfbd5a08aadb3dfa352d94331c7299dfa0677ea",
+          "url": "https://github.com/unicode-org/icu/commit/cb718e278ac4935bd160af3aa17a96e245c793f8"
+        },
+        "date": 1759178686148,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUConstruction",
+            "value": 2037.8716915391253,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

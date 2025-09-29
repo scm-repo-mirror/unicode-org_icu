@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759165775863,
+  "lastUpdate": 1759179608319,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -39897,6 +39897,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetEncoderICU",
             "value": 2.6921835344545397,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "committer": {
+            "email": "nmihai_2000@yahoo.com",
+            "name": "Mihai Nita",
+            "username": "mihnita"
+          },
+          "distinct": true,
+          "id": "cb718e278ac4935bd160af3aa17a96e245c793f8",
+          "message": "ICU-23054 Remove obsolete TODO",
+          "timestamp": "2025-09-29T13:24:37-07:00",
+          "tree_id": "6bfbd5a08aadb3dfa352d94331c7299dfa0677ea",
+          "url": "https://github.com/unicode-org/icu/commit/cb718e278ac4935bd160af3aa17a96e245c793f8"
+        },
+        "date": 1759179263388,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetEncoderICU",
+            "value": 2.7101912085708304,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

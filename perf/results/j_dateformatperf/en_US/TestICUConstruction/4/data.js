@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759436347671,
+  "lastUpdate": 1759438930392,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -40227,6 +40227,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUConstruction",
             "value": 1981.6041478091142,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "distinct": true,
+          "id": "be37d27e41eebe261c848e70859e8e7a99c288ab",
+          "message": "ICU-23054 Bump the github-actions group with 3 updates\n\nSee #3706",
+          "timestamp": "2025-10-02T13:41:18-07:00",
+          "tree_id": "da39b8ca4545e5fe34391d04c5eb9b76373e1de0",
+          "url": "https://github.com/unicode-org/icu/commit/be37d27e41eebe261c848e70859e8e7a99c288ab"
+        },
+        "date": 1759438581837,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUConstruction",
+            "value": 1937.6181474480152,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

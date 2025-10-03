@@ -17,14 +17,12 @@ License & terms of use: http://www.unicode.org/copyright.html
 ## Contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 ---
 
-## Most artifacts are now built in the GitHub CI. Work in Progress!!!
-
-Many of the tasks that used to be done before "by hand" are now at least
-partially done by GitHub Actions.
-
-The release requires (for now) triggering the actions "by hand".
+## Prerequisites
 
 First go to [Github - unicode-org/icu](https://github.com/unicode-org/icu).
 
@@ -34,6 +32,14 @@ Make sure the release is **DRAFT**.
 See [Release & Milestone Tasks - Tagging](index.md#tagging) for details.
 
 That tag will need to be passed to several of the actions below.
+
+
+## Create Artifacts (Most artifacts are now built in the GitHub CI. Work in Progress!!!)
+
+Many of the tasks that used to be done before "by hand" are now at least
+partially done by GitHub Actions.
+
+### Create Artifacts Manually
 
 Go to [Github - unicode-org/icu](https://github.com/unicode-org/icu) -- Actions
 and select the action to run from the left side.
@@ -81,12 +87,47 @@ Here you should use the release tag.
      * **Release tag to upload to:** should be the GitHub draft release prepared
        in a previous BRS step.
 
+### Create Artifacts Programmatically
+
+```
+export BRANCH=maint/maint-78
+export REL_TAG=release-78.1rc
+
+gh workflow run icu4c.yml \
+    --ref ${BRANCH} \
+    -f gitReleaseTag=true
+
+gh workflow run release-icu4c-fedora.yml \
+    --ref ${BRANCH} \
+    -f runTests=true \
+    -f gitReleaseTag=${REL_TAG}
+
+gh workflow run release-icu4c-ubuntu.yml \
+    --ref ${BRANCH} \
+    -f runTests=true \
+    -f gitReleaseTag=${REL_TAG}
+
+gh workflow run release-icu4j-maven.yml \
+    --ref ${BRANCH} \
+    -f runTests=true \
+    -f deployToMaven=true \
+    -f gitReleaseTag=${REL_TAG}
+
+gh workflow run release-check-sign.yml \
+    --ref ${BRANCH} \
+    -f gitReleaseTag=${REL_TAG}
+```
+
+## Create Checksums of Artifacts
+
 1. **Release - Create checksums and GPG sign** (`release-check-sign.yml`) \
    THIS SHOULD BE THE LAST ACTION YOU RUN. \
    After all the artifacts from the previous steps are posted to the release. \
    The action will download all the artifacts from release,
    create checksum files (`SHASUM512.txt` and `*.md5`),
    and digital signature files (`*.asc`)
+
+## Deploy Maven Artifacts
 
 1. **Login to Sonatype, sanity check, and approve** \
   The previous step stages the Maven artifacts to Sonatype, but does

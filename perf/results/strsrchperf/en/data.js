@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761671622232,
+  "lastUpdate": 1761861269608,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -49389,6 +49389,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "Test_ICU_Backward_Search",
             "value": 49.1742,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "markus.icu@gmail.com",
+            "name": "Markus Scherer",
+            "username": "markusicu"
+          },
+          "committer": {
+            "email": "markus.icu@gmail.com",
+            "name": "Markus Scherer",
+            "username": "markusicu"
+          },
+          "distinct": true,
+          "id": "03f4023c3210d254c872c738395718419a6815c1",
+          "message": "ICU-23231 ICU 78 release day download page\n\nSee #3753",
+          "timestamp": "2025-10-30T14:35:32-07:00",
+          "tree_id": "2fa79f1117dca838ef6e5d67d73685db6e1cd424",
+          "url": "https://github.com/unicode-org/icu/commit/03f4023c3210d254c872c738395718419a6815c1"
+        },
+        "date": 1761860899325,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Test_ICU_Forward_Search",
+            "value": 22.5276,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "Test_ICU_Backward_Search",
+            "value": 49.3136,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

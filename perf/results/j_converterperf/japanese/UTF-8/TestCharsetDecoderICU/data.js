@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761924475337,
+  "lastUpdate": 1761928714872,
   "repoUrl": "https://github.com/unicode-org/icu",
   "entries": {
     "Benchmark": [
@@ -40677,6 +40677,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetDecoderICU",
             "value": 1.8042700833534677,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "poliudian-iv@yandex-team.ru",
+            "name": "poliudian-iv",
+            "username": "poliudian-iv"
+          },
+          "committer": {
+            "email": "fredrik@roubert.name",
+            "name": "Fredrik Roubert",
+            "username": "roubert"
+          },
+          "distinct": true,
+          "id": "5718197a136ce9dccc9ceab81b0aeff2853e0c1c",
+          "message": "ICU-23234 Fix static analyzer bugs",
+          "timestamp": "2025-10-31T17:16:35+01:00",
+          "tree_id": "b667dc34eea120cab9ae5b3d251efb365b4aa7bd",
+          "url": "https://github.com/unicode-org/icu/commit/5718197a136ce9dccc9ceab81b0aeff2853e0c1c"
+        },
+        "date": 1761928343734,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetDecoderICU",
+            "value": 1.803260132861745,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
